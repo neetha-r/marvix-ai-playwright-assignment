@@ -1,0 +1,15 @@
+{
+  "name": "navaneetha-airbnb-playwright-assignment",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.3",
+    "dotenv": "^16.5.0",
+    "typescript": "^5.8.3"
+  }
+}
